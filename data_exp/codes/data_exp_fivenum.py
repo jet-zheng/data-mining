@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 
-def fivenum(df_input):
+def fun_fivenum(df_input):
     """
     功能：按列计算数据统计项（总数、均值、标准差、最小值、（25%、50%、75%）分位数、
     最大值、方差、偏度、峰度、中位数、变异系数、极差）
@@ -68,7 +68,7 @@ if __name__ == "__main__":
     
     print('\n a test of fivenum() \n raw data:\n', df_test, '\n')
     
-    print('processed data: \n', fivenum(df_test), '\n')
+    print('processed data: \n', fun_fivenum(df_test), '\n')
     
 # =============================================================================
 #     df_null = pd.DataFrame()
