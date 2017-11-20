@@ -29,8 +29,6 @@ def fun_from_file_to_dataframe(file_path,file_name):
 
 		os.chdir(file_path)
 
-		time.strptime(create_date, "%Y-%m-%d")
-
 	except FileNotFoundError:
 		print("filepath or file_name not existis")
 

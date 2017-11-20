@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-	 author :zhoujianjun
+	 author  :zhoujianjun
 	 date	 :2017-10-24
-	 purpose:缺失值统计
-	 log		: date	author	reason content
+	 purpose :缺失值统计
+	 log     : date	author	reason content
 """
 ##导入所需要的包
 import pandas as pd
