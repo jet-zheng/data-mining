@@ -14,8 +14,6 @@ import pandas as pd
 
 def fun_fivenum(df_input):
     """
-    功能：按列计算数据统计项（总数、均值、标准差、最小值、（25%、50%、75%）分位数、
-    最大值、方差、偏度、峰度、中位数、变异系数、极差）
     input: df_input(类型为DateFrame)
     output: df_output(类型为DateFrame)
     return: DateFrame(类型为DateFrame)
